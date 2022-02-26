@@ -1,0 +1,11 @@
+/*header {
+    background-image: linear-gradient(to right top, #72154a, #752461, #723477, #6b438e, #5d53a2, #6261b0, #676ebd, #6d7cca, #8b8dd7, #a79ee4, #c2b1f2, #dbc4ff);
+}*/
+
+body {
+    background-color: #21012E;
+}
+
+h1, h2, h3, form, p {
+    color: #B4A7B7;
+}
