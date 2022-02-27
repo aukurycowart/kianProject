@@ -17,6 +17,12 @@
     grid-template-rows: repeat(9, 1fr);
 }
 
+.nav-link:hover{
+    font-size: 25px;
+    transition: font-size .5s;
+    padding:0;
+    
+}
 .nav-back{
     background-color: #210210;
     grid-column: 1/5;
@@ -34,6 +40,10 @@
     letter-spacing: 2px;
     padding: 10px 40px;
     text-transform: uppercase;
+    margin: 20px;
+    text-decoration: solid;
+    
+    
   }
 
 nav {
@@ -213,20 +223,40 @@ header {
     
 }
 
+label {
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 input[type=text] {
-    padding: 10px;
+    padding: 20px;
     margin: 10px 0;
     border-radius: 10px;
     border:2px solid #210210;
-    width: 98%;
+    width: 96.5%;
+    font-size: 2em;
   }
 
 input[type=submit]{
+    appearance:none;
+    -webkit-appearance:none;
+
     color: white;
     background-color: #210210;
     border-radius: 10px;
     margin-top: 10px;
-    margin-left: 45%;
+    margin-left: 25%;
+    padding: 10px;
+    width: 50%;
+    font-size: 2em;
+}
+
+input[type=submit]:hover{
+    background-color: #914C3C;
+    cursor: pointer;
+    
 }
 
 .user-intro {
@@ -234,6 +264,9 @@ input[type=submit]{
     border:2px solid #210210;
     border-radius: 10px;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-top: 10px;
 }
 
 footer {
