@@ -3,16 +3,18 @@
     margin:auto;
     width: 2000px;
     height: 1000px;
-    gap: 10px;
+    gap: 40px;
     grid-template-areas: "nav     nav     nav     nav"
                          "header  header  header  header"
                          "tools"
                          "skills  skills  skills  skills"
+                         "port"
                          "project project project project"
+                         "message"
                          "contact contact contact contact"
                          "footer  footer  footer  footer";
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(9, 1fr);
 }
 
 .nav-back{
@@ -87,7 +89,7 @@ header {
     grid-column: 1/1;
     grid-row: 3/3;
     color: white;
-    margin:auto;
+    margin: auto;
     font-size: 4em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -96,12 +98,11 @@ header {
     grid-column: 1/1;
     grid-row: 4/4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 
 .skill-logo p {
-    margin-top: 100px;
-    margin:auto;
     font-size: 2em;
     font-weight: 300px;
     color:#210210;
@@ -109,14 +110,12 @@ header {
 
 .skill-logo img {
     max-width: 100%;
-    
 }
 
 .skill-animate {
     grid-column: 2/2;
     grid-row: 4/4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: auto;
 }
 
 
@@ -138,17 +137,13 @@ header {
 
 
 .skill-photoshop p {
-    margin-top: 100px;
-    margin-left: 60px;
-    margin-bottom: 0px;
+    
     font-size: 2em;
     font-weight: 300px;
     color:#210210;
 }
 .skill-photoshop img {
-    max-width: 50%;
-    margin-bottom: 20px;
-    margin-top: 30px;
+    max-width: 51%;
 }
 
 .skill-illustrate {
@@ -159,15 +154,100 @@ header {
 
 
 .skill-illustrate p {
-    margin-top: 100px;
-    margin-left: 60px;
-    margin-bottom: 0px;
     font-size: 2em;
-    font-weight: 300px
+    font-weight: 300px;
     color:#210210;
 }
+
 .skill-illustrate img {
     max-width: 50%;
-    margin-bottom: 20px;
-    margin-top: 30px;
+}
+
+.port-back{
+    background-color: #210210;
+    grid-column: 1/5;
+    grid-row: 5/5;
+    margin:0;
+    z-index: -1;
+}
+
+.section-3 {
+    grid-column: 1/1;
+    grid-row: 5/5;
+    color: white;
+    margin: auto;
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.piece-1 {
+    grid-column: 1/1;
+    grid-row: 6/6;
+}
+
+.piece-1 img {
+    max-width: 100%;;
+}
+
+.section-4 {
+    grid-column: 1/1;
+    grid-row: 7/7;
+    color: white;
+    margin: auto;
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-back {
+    background-color: #210210;
+    grid-column: 1/5;
+    grid-row: 7/7;
+    margin:0;
+    z-index: -1;
+}
+
+.form-contact {
+    grid-column: 1/3;
+    grid-row: 8/8;
+    max-width: 100%;
+    
+}
+
+input[type=text] {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border:2px solid #210210;
+    width: 98%;
+  }
+
+input[type=submit]{
+    color: white;
+    background-color: #210210;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 45%;
+}
+
+.user-intro {
+    resize: vertical;
+    border:2px solid #210210;
+    border-radius: 10px;
+    width: 100%;
+}
+
+footer {
+    color:white;
+    grid-area: footer;
+    grid-column: 1/5;
+    grid-row: 9/9;
+    margin:auto;
+}
+
+.footer-back {
+    background-color: #210210;
+    grid-column: 1/5;
+    grid-row: 9/9;
+    margin:0;
+    z-index: -1;
 }
